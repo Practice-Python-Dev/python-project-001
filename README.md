@@ -1,5 +1,5 @@
-# python-script-001
+# Python Beginner Scripts
 
-Run in terminal.
-
-This script asks you what your name is and says hello
+To run in terminal:
+  - Open the folder via cd python-project-001
+  - Type 'python3 file_name'
