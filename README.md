@@ -1,2 +1,5 @@
 # python-script-001
-BMI calculation
+
+Run in terminal.
+
+This script asks you what your name is and says hello
