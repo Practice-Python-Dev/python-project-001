@@ -1,13 +1,15 @@
-# STRING OPERATIONS ... (SORT AND ANALYZE STRINGS)
+#------------------------------
+# WHICH STRING IS BIGGER
+#------------------------------
 
-
-# FIND WHICH STRING IS BIGGER ...
+# Initialize three variables to compare
 my_string_a = 'abcdefghijklmnopqrstuvwxyz'
 my_string_b = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
 my_string_c = 'This is a bunch of bologna bro'
-# Use an if statement. Compare string length using the built in function len(). Return what the longest string ...
-print("<----- Three strings live in thise machine. ----->")
 
+print("Comparing Variables:")
+
+# Compare string length using len() - Return the longest string
 if len(my_string_a) > len(my_string_b) and len(my_string_a) > len(my_string_c):
     print('First string is longer')
 elif len(my_string_b) > len(my_string_a) and len(my_string_b) > len(my_string_c):
